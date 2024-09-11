@@ -2,7 +2,7 @@
     CS 5001
     Lab 1
     Exercise 2
-    Name:
+    Name: Yingzi Zhang
 '''
 
 '''
@@ -12,6 +12,9 @@ lyric on one single line using print.
 '''
 
 def main():
+    print('飛翔(はばた)いたら'+' 戻らないと言って'+' 目指したのは'+' 蒼い 蒼い あの空'+' 悲しみ”はまだ覚えられず'+' 切なさは今つかみはじめた')
+
+
     # YOUR CODE HERE
 
 

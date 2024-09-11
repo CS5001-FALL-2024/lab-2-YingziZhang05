@@ -2,7 +2,7 @@
     CS 5001
     Lab 1
     Exercise 3
-    Name:
+    Name: Yingzi Zhang
 '''
 
 '''

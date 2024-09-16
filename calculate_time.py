@@ -2,7 +2,7 @@
     CS 5001
     Lab 1
     Exercise 4
-    Name:
+    Name: Yingzi Zhang
 '''
 
 '''
@@ -16,12 +16,24 @@ At what time does the alarm go off?
 You may assume military time, so 1pm is 13:00 hours. Here is some example output:
 
 What time is it? 23
-How long until your alarm expires? 4
+How long until your alarm expires? 4 
 Your alarm will expire at 3.
 '''
 
-def main():
-    # YOUR CODE HERE
+def main(): 
+    Time = input('What time is it?')
+    Alarm = input('How long until your alarm expires?')
+    type(Time)
+    Time = int(Time)
+    type(Alarm)
+    Alarm = int(Alarm)
+    x = Time + Alarm
+    if x <= 24:
+        print ('You alarm will expire at' , x, '.')
+    else:
+        if x > 24:
+            print('You alarm will expire at' , x - 24, '.')
+  
 
-if __name__ == '__main__':
+if __name__ == '__main__':  
     main()

@@ -12,18 +12,18 @@ lyric on one single line using print.
 '''
 
 def main():
-     lyric_0 = '飛翔(はばた)いたら'
-     lyric_1 = ' 戻らないと言って'
-     lyric_2 = ' 目指したのは'
-     lyric_3 = ' 蒼い 蒼い あの空'
-     lyric_4 = ' 悲しみ”はまだ覚えられず'
-     lyric_5 = ' 切なさは今つかみはじめた'
-     lyric_6 = ' あなたへと抱く'
-     lyric_7 = ' この感情も'
-     lyric_8 = ' 今“言葉”に変わっていく'
-     lyric_9 = '未知なる世界の'
+     lyric_0 = '飛翔'
+     lyric_1 = ' 戻ら'
+     lyric_2 = ' 目指'
+     lyric_3 = ' 蒼い'
+     lyric_4 = ' 悲しみ'
+     lyric_5 = ' 切なさ'
+     lyric_6 = ' あなた'
+     lyric_7 = ' この'
+     lyric_8 = ' 言葉'
+     lyric_9 = '未知'
 
-     print(lyric_0+ lyric_1+ lyric_2+ lyric_3 +lyric_4 +lyric_5 + lyric_6 +lyric_7 +lyric_8 +lyric_9)
+     print(lyric_0 + lyric_1 + lyric_2 + lyric_3 + lyric_4 + lyric_5 + lyric_6 +lyric_7 + lyric_8 + lyric_9)
 
 
 if __name__ == '__main__':

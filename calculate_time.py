@@ -21,13 +21,13 @@ Your alarm will expire at 3.
 '''
 
 def main(): 
-    Time = input('What time is it?')
-    Alarm = input('How long until your alarm expires?')
-    type(Time)
-    Time = int(Time)
-    type(Alarm)
-    Alarm = int(Alarm)
-    x = Time + Alarm
+    time = input('What time is it?')
+    alarm = input('How long until your alarm expires?')
+    type(time)
+    Time = int(time)
+    type(alarm)
+    Alarm = int(alarm)
+    x = time + alarm
     if x <= 24:
         print ('You alarm will expire at' , x, '.')
     else:
